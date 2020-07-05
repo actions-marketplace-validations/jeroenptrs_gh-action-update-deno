@@ -1,4 +1,5 @@
 name: Update Deno
+description: Fetch the latest version from denoland/deno and store it in a file
 
 on:
   schedule:
@@ -41,3 +42,7 @@ jobs:
         run: |
           echo "Deno version is ${{ steps.denoVersion.outputs.tag }}"
           echo "Pull Request Number - ${{ steps.cpr.outputs.pull-request-number }}"
+
+branding:
+  icon: chevrons-up
+  color: blue
