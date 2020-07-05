@@ -2,7 +2,7 @@ name: update_deno
 
 on:
   schedule:
-    - cron: '*/15 * * * *'
+    - cron: '*/5 * * * *'
 
 jobs:
   build:
@@ -11,7 +11,7 @@ jobs:
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
-      - uses: oprypin/fin-latest-tag@v1
+      - uses: oprypin/find-latest-tag@v1
         id: denoVersion
         with:
           repository: denoland/deno
