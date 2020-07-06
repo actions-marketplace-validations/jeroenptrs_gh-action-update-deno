@@ -8,7 +8,7 @@
 
 ---
 
-_**NOTE:** this is a recepy not a fully fledged Github Action!, copy and paste the code below into a new action!_
+_**NOTE:** this is a recipe not a fully fledged Github Action!, copy and paste the code below into a new action!_
 
 
 ```yml
